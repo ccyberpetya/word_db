@@ -17,11 +17,9 @@ where name not like '% %';
 
 select title
 from track
-where lower(title) like '%мой%' or lower(title) like '%my%';
+where title ~* '\mmy\M'
+	or title ~* '\mмой\M';
 
-select artist_id, genre_id 
-from artistgenre
-where 
 
 select g.name as genre, COUNT(ag.artist_id) as artist_count
 from genre g

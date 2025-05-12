@@ -17,12 +17,18 @@ values
 	(4, 2019, 'Eazy-Duz-It');
 insert into track(id,album_id,duration,title)
 values
-	 (1, 1, 215, 'Final Frontier'),
-     (2, 2, 198, 'It Was a Good Day'),
-     (3, 2, 234, 'my Wicked'),
-     (4, 3, 247, 'Still D.R.E.'),
-     (5, 3, 213, 'The Watcher'),
-     (6, 4, 189, 'Boyz-n-the-Hood');
+     (100, 1, 180, 'my own'),
+     (101, 1, 180, 'own my'),
+     (102, 1, 180, 'my'),
+     (103, 1, 180, 'oh my god'),
+     (104, 1, 180, 'myself'),
+     (105, 1, 180, 'by myself'),
+     (106, 1, 180, 'bemy self'),
+     (107, 1, 180, 'myself by'),
+     (108, 1, 180, 'by myself by'),
+     (109, 1, 180, 'beemy'),
+     (110, 1, 180, 'premyne');
+
 insert into compilation(id,release_year,title)
 values
 	(1, 2005, 'West Coast Legends'),
